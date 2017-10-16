@@ -231,14 +231,14 @@ PUT /gb <1>
     "tweet" : {
       "properties" : {
         "tweet" : {
-          "type" :    "string",
+          "type" :    "text",
           "analyzer": "english"
         },
         "date" : {
           "type" :   "date"
         },
         "name" : {
-          "type" :   "string"
+          "type" :   "text"
         },
         "user_id" : {
           "type" :   "long"
